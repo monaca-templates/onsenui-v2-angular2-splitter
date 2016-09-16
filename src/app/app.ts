@@ -1,12 +1,11 @@
 import {Component, ViewChild} from '@angular/core';
-import {ONS_DIRECTIVES, OnsSplitterContent, OnsSplitterSide} from 'angular2-onsenui';
+import {OnsSplitterContent, OnsSplitterSide} from 'angular2-onsenui';
 import {HomePage} from './home';
 import {MenuPage} from './menu';
 import {AboutPage} from './about';
 
 @Component({
   selector: 'app',
-  directives: [ONS_DIRECTIVES],
   template: require('./app.html'),
   styles: [require('./app.css')]
 })

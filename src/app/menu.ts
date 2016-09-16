@@ -1,10 +1,9 @@
-import {Component, Host, Inject, forwardRef} from '@angular/core';
-import {ONS_DIRECTIVES, OnsSplitterContent} from 'angular2-onsenui';
+import {Component} from '@angular/core';
+import {OnsSplitterContent} from 'angular2-onsenui';
 import {MyApp} from './app';
 
 @Component({
   selector: 'ons-page',
-  directives: [ONS_DIRECTIVES],
   template: `
     <ons-toolbar>
       <div class="center">Menu</div>
@@ -20,7 +19,7 @@ import {MyApp} from './app';
 })
 export class MenuPage {
 
-  constructor(@Inject(forwardRef(() => MyApp)) private app : MyApp) {
+  constructor(private app : MyApp) {
   }
 
 }
