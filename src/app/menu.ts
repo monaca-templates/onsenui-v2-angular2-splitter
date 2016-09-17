@@ -1,4 +1,4 @@
-import {Component} from '@angular/core';
+import {Component, Inject, forwardRef} from '@angular/core';
 import {OnsSplitterContent} from 'angular2-onsenui';
 import {MyApp} from './app';
 
@@ -19,7 +19,7 @@ import {MyApp} from './app';
 })
 export class MenuPage {
 
-  constructor(private app : MyApp) {
+  constructor(@Inject(forwardRef(() => MyApp)) private app : MyApp) {
   }
 
 }
