@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'ons-page',
+  selector: 'ons-page[home]',
   template: `
     <ons-toolbar>
       <div class="center">Home</div>

@@ -1,7 +1,7 @@
 import {Component} from '@angular/core';
 
 @Component({
-  selector: 'ons-page',
+  selector: 'ons-page[about]',
   template: `
     <ons-toolbar>
       <div class="center">About</div>

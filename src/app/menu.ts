@@ -3,7 +3,7 @@ import {OnsSplitterContent} from 'angular2-onsenui';
 import {MyApp} from './app';
 
 @Component({
-  selector: 'ons-page',
+  selector: 'ons-page[menu]',
   template: `
     <ons-toolbar>
       <div class="center">Menu</div>
