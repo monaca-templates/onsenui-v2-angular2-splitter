@@ -1,10 +1,9 @@
-import {Component, Host, Inject, forwardRef} from '@angular/core';
-import {ONS_DIRECTIVES, OnsSplitterContent} from 'angular2-onsenui';
+import {Component, Inject, forwardRef} from '@angular/core';
+import {OnsSplitterContent} from 'angular2-onsenui';
 import {MyApp} from './app';
 
 @Component({
   selector: 'ons-page',
-  directives: [ONS_DIRECTIVES],
   template: `
     <ons-toolbar>
       <div class="center">Menu</div>
