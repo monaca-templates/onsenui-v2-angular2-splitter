@@ -1,5 +1,5 @@
 import {Component, Inject, forwardRef} from '@angular/core';
-import {OnsSplitterContent} from 'angular2-onsenui';
+import {OnsSplitterContent} from 'ngx-onsenui';
 import {MyApp} from './app';
 
 @Component({

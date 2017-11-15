@@ -1,5 +1,5 @@
 import {Component, ViewChild} from '@angular/core';
-import {OnsSplitterContent, OnsSplitterSide} from 'angular2-onsenui';
+import {OnsSplitterContent, OnsSplitterSide} from 'ngx-onsenui';
 import {HomePage} from './home';
 import {MenuPage} from './menu';
 import {AboutPage} from './about';
