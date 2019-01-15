@@ -1,6 +1,6 @@
 {
   "name": "onsenui-v2-angular2-splitter",
-  "version": "3.0.0+20180918.1",
+  "version": "3.0.1+20190115.1",
   "description": "",
   "dependencies": {
     "@angular/animations": "6.0.4",
