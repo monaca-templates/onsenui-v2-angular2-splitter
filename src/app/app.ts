@@ -8,7 +8,7 @@ import {AboutPage} from './about';
   selector: 'app',
   template: require('./app.html'),
   styles: [
-    require('./app.css')
+    './app.css'
   ]
 })
 export class MyApp {
